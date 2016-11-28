@@ -4,7 +4,7 @@ module.exports = {
   context: __dirname + '/src',
   entry: {
     home: './home.js',
-    tripled: './lib/index.js',
+    tripled: './lib/BarChart.js',
   },
   output: {
     path: __dirname + '/dist',
@@ -20,7 +20,7 @@ module.exports = {
         test: /\.js$/,
         use: [{
           loader: 'babel-loader',
-          options: { presets: ['es2015'] }
+          options: { presets: ['es2015'] },
         }],
       },
       {

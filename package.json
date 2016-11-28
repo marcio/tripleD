@@ -5,8 +5,12 @@
   "main": "index.js",
   "author": "Marcio Gasparotto",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --port=9090"
+  },
   "dependencies": {
-    "d3": "^4.3.0"
+    "d3": "^4.3.0",
+    "lodash": "^4.17.2"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
